@@ -15,7 +15,7 @@ public enum ErrorType {
   INTERNAL_ERROR(100, "An internal server error occurred", INTERNAL_SERVER_ERROR),
   CREDIT_CARD_FORMAT_INVALID(1001, "Credit card format invalid", BAD_REQUEST),
   CREDIT_CARD_ALREADY_CREATED(1002, "Credit card already created", CONFLICT),
-  INVALID_PARAMETER_ERROR(1003, "Invalid field(s). ", UNPROCESSABLE_ENTITY);
+  INVALID_PARAMETER_ERROR(1003, "Invalid field(s) or blank field(s) ", UNPROCESSABLE_ENTITY);
 
   private int id;
   private String description;
