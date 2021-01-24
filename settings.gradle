@@ -1,3 +1,4 @@
 rootProject.name = 'publicissapient'
 
-include 'service', 'component-test'
+include 'service',
+        'component-test'
